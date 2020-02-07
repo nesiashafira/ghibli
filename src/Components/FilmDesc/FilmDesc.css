@@ -1,0 +1,52 @@
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  float: left;
+  padding: 10px 25px;
+}
+
+.desc-logo {
+  width: 170px;
+  height: auto;
+}
+
+.desc-title {
+  font-size: 42px;
+  margin: 0;
+}
+
+.desc-desc {
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0, 0.28);
+}
+
+label {
+  font-size: 14px;
+  color: rgba(36, 17, 17, 0.8);
+  font-weight: bold;
+}
+
+.desc-attr {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 100px;
+  grid-row-gap: 26px;
+  margin: 10px 0;
+}
+
+.desc-maker {
+  font-size: 20px;
+  margin: 3px 0;
+}
+
+.desc-detail {
+  font-size: 30px;
+  margin: 3px 0;
+}
